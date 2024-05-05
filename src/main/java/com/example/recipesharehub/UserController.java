@@ -12,7 +12,7 @@ public class UserController {
     @Autowired
     private UserRepository userRepository;
 
-    //add post request
+    //add post
     @PostMapping("/users")
     public User createUser(@RequestBody User user){
 
